@@ -79,6 +79,24 @@ button:focus-visible {
     width: 500px;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.form input,
+.form select{
+    background: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .input{
     width: 100%;
 }
@@ -97,6 +115,14 @@ button:focus-visible {
 
 .submit:hover{
     background: #078ee7;
+}
+
+.errors{
+    text-align: center;
+    background: red;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 
